@@ -13,7 +13,7 @@ namespace _001_conditionalStatement
             Console.Write("Enter Employee's Name :- ");
             string Employeename = Console.ReadLine();
 
-        ReadMarks:  //goto
+            ReadMarks:  //goto
             Console.Write("Enter score at Max 10 :- ");
             int score = int.Parse(Console.ReadLine());
 

@@ -17,9 +17,9 @@ namespace _002_boxing_unboxing
             string name = (string)o;
             /*
                 Explicit casting is required to convert a base type(object) to a derived type (string).
-                aka downcasting.
+                aka downcasting. Object is parent class and string is child class so downcasting is req.
 
-                Also typecasting is required bcz at compile time the variable o is of the object time and the complier
+                Also typecasting is required bcz at compile time the variable o is of the object type and the complier
                 needs an explicit cast to safely convert it to a string.
              */
 
