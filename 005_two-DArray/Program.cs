@@ -16,9 +16,11 @@ namespace _005_two_DArray
             for (int i  = 0; i < 5; i++)
             {
                 Console.Write("{ ");
+
                 for (int j = 0; j < 2; j++)
                 {
                     Console.Write(marks[i, j] + " ");
+
                     if (j < 1)
                     {
                         Console.Write(", ");
